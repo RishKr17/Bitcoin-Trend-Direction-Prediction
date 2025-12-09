@@ -1,0 +1,57 @@
+# ---------------------------
+# Python
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.pkl
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+.profile
+*.nbconvert*
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.mypy_cache/
+.pytest_cache/
+.dmypy.json
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ML Artifacts
+artifacts/
+models/
+outputs/
+
+# Data (keeping repo lightweight)
+data/*.csv
+data/*.json
+data/*.parquet
+data/*.pkl
+data/*.npy
+data/*.npz
+
+# Avoiding ignoring the data folder itself
+!data/
+!data/.gitkeep
