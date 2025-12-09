@@ -16,7 +16,7 @@ Buy-and-Hold strategy.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 project/
 ├── notebooks/
@@ -35,7 +35,7 @@ project/
 
 
 
-## 🚀 Project Workflow
+## Project Workflow
 
 1. **Data Download & Cleaning**  
    - Daily OHLCV Bitcoin data from Yahoo Finance  
